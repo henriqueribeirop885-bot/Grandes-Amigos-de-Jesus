@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Button from './Button';
 import { Check, Shield, BookOpen, Star } from 'lucide-react';
@@ -36,7 +37,7 @@ const Offer: React.FC<OfferProps> = ({ onBuySingle }) => {
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-3 text-slate-600 text-sm">
                 <BookOpen className="w-5 h-5 text-brand-blue" />
-                <span>1 eBook (+60 Páginas)</span>
+                <span>1 eBook (+20 Páginas)</span>
               </div>
               <div className="flex items-center gap-3 text-slate-600 text-sm">
                 <Check className="w-5 h-5 text-brand-blue" />
@@ -84,7 +85,7 @@ const Offer: React.FC<OfferProps> = ({ onBuySingle }) => {
             <div className="space-y-3 mb-6 border-t border-slate-700 pt-5">
               <div className="flex items-start gap-3">
                 <div className="bg-brand-green p-1 rounded-full mt-0.5"><Check className="w-3 h-3 text-white" /></div>
-                <span className="text-slate-200 text-sm"><strong>Todos os 3 Volumes</strong> (+60 Páginas cada)</span>
+                <span className="text-slate-200 text-sm"><strong>Todos os 3 Volumes</strong> (+60 Páginas)</span>
               </div>
               <div className="flex items-start gap-3">
                 <div className="bg-brand-green p-1 rounded-full mt-0.5"><Check className="w-3 h-3 text-white" /></div>
