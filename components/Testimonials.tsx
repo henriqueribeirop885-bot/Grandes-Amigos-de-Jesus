@@ -10,16 +10,16 @@ const Testimonials: React.FC = () => {
       text: "Meu filho parou de pedir o tablet para colorir as Histórias de Jesus! É impressionante como ele grava os versículos enquanto pinta. Simplesmente amamos!"
     },
     {
-      name: "Pr. Carlos Mendes",
-      role: "Líder do Ministério Infantil",
-      image: "https://i.pravatar.cc/150?u=carlos",
-      text: "Material de excelente qualidade teológica e pedagógica. Usamos na escola dominical e as crianças ficaram encantadas com o estilo dos desenhos."
-    },
-    {
       name: "Fernanda Lima",
       role: "Mãe de 3",
-      image: "https://i.pravatar.cc/150?u=fernanda",
+      image: "https://i.pravatar.cc/150?u=carlos",
       text: "O melhor investimento que fiz este mês. Imprimi várias cópias e fizemos um concurso de pintura em família no domingo. Foi um tempo de qualidade incrível."
+    },
+    {
+      name: "Pr. Carlos Mendes",
+      role: "Líder do Ministério Infantil",
+      image: "https://i.pravatar.cc/150?u=fernanda",
+      text: "Material de excelente qualidade teológica e pedagógica. Usamos na escola dominical e as crianças ficaram encantadas com o estilo dos desenhos."
     }
   ];
 
